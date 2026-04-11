@@ -1,0 +1,15 @@
+{
+  "change_id": "desktop-memory-cpu-budget",
+  "title": "Reduce desktop memory and CPU usage within the existing stack",
+  "change_type": "full-stack",
+  "status": "blocked",
+  "current_stage": "archive",
+  "verification_status": "failed",
+  "archival_status": "pending",
+  "design_aligned": "na",
+  "next_action": "Repair the desktop build chain, rebuild from source, then re-verify vi restore, sidebar spinner, chat input background, and runtime smoothness without live dist patching.",
+  "target_repo": "superset-sh/superset",
+  "branch_name": "fix/patched-terminal-recovery",
+  "checkout_path": "/Users/chenchao/Documents/workspace/superset-fix",
+  "updated_at": "2026-04-11T22:13:08+08:00"
+}
