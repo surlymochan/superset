@@ -16,8 +16,8 @@ export function Providers({ children }: { children: React.ReactNode }) {
 			<TRPCReactProvider>
 				<ThemeProvider
 					attribute="class"
-					defaultTheme="dark"
-					forcedTheme="dark"
+					defaultTheme="system"
+					enableSystem
 					storageKey={THEME_STORAGE_KEY}
 					disableTransitionOnChange
 				>
